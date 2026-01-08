@@ -13,6 +13,7 @@ export default defineConfig({
     tailwindcss()],
     resolve: {
       alias: {
+        "#": resolve(dirname(fileURLToPath(import.meta.url)), "#"),
         "#components": resolve(dirname(fileURLToPath(import.meta.url)), "src/components"),
         "#constants": resolve(dirname(fileURLToPath(import.meta.url)), "src/constants"),
         "#store": resolve(dirname(fileURLToPath(import.meta.url)), "src/store"),

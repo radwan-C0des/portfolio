@@ -42,7 +42,7 @@ function Navbar() {
                 ))
             }
             </ul>
-            <time>{time}</time>
+            <time className='mr-10'>{time}</time>
         </div>
         
     </nav>
