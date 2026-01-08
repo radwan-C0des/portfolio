@@ -1,12 +1,14 @@
 import React from 'react'
-import Navbar from '#components/navbar.jsx'
-
+import { Navbar,Welcome,ShaderBackground} from '#components'
 function App() {
   return (
     <main>
+      <ShaderBackground />
       <Navbar />
+      <Welcome />
     </main>
   )
 }
+
 
 export default App
